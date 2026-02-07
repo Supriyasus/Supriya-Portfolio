@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <>
      
-      <section className="relative flex items-start justify-center min-h-screen md:items-start md:justify-start c-space">
-        <BackgroundGradientAnimation containerClassName="fixed inset-0 -z-10" />
+      <section className="relative w-full min-h-dvh overflow-hidden py-24 sm:py-28 lg:py-0">
+        <BackgroundGradientAnimation containerClassName="absolute inset-0 -z-10 w-full h-full" />
         <div
             className="
               relative z-10
