@@ -27,7 +27,7 @@ const GLOBE_CONFIG = {
     { location: [19.076, 72.8777], size: 0.1 },
     { location: [23.8103, 90.4125], size: 0.05 },
     { location: [30.0444, 31.2357], size: 0.07 },
-    { location: [39.9042, 116.4074], size: 0.08 },
+    { location: [25.44478, 81.84322], size: 0.2 },
     { location: [-23.5505, -46.6333], size: 0.1 },
     { location: [19.4326, -99.1332], size: 0.1 },
     { location: [40.7128, -74.006], size: 0.1 },

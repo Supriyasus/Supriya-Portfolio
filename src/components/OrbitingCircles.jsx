@@ -5,11 +5,11 @@ export function OrbitingCircles({
   className,
   children,
   reverse,
-  duration = 20,
+  duration = 10,
   radius = 160,
   path = true,
   iconSize = 30,
-  speed = 1,
+  speed = 10,
   ...props
 }) {
   const calculatedDuration = duration / speed;

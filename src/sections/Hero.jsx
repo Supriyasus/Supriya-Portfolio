@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
      
-      <section className="relative w-full min-h-dvh overflow-hidden py-24 sm:py-28 lg:py-0">
+      <section className="relative w-full min-h-screen overflow-hidden py-24 sm:py-28 lg:py-0">
         <BackgroundGradientAnimation containerClassName="absolute inset-0 -z-10 w-full h-full" />
         <div
             className="
@@ -25,7 +25,8 @@ const Hero = () => {
           <HeroText className="lg:mt-6" />
           <DigitalPass />
         </div>
-
+        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-5
+        bg-gradient-to-b from-transparent to-[#030412]" />
       </section>
     </>
   );

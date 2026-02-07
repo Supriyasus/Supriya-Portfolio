@@ -69,6 +69,62 @@ html {
   scrollbar-gutter: stable;
 }
 
+:root {
+  /* ===== Brand / Base ===== */
+  --color-bg-primary: rgb(3, 4, 18);
+  --color-bg-navy: rgb(0, 17, 82);
+  --color-bg-indigo: rgb(31, 30, 57);
+
+  /* ===== Gradient anchors ===== */
+  --color-gradient-start: rgb(108, 0, 162);
+  --color-gradient-end: rgb(0, 17, 82);
+
+  /* ===== Accent / Glow colors ===== */
+  --color-blue: rgb(18, 113, 255);        /* electric blue */
+  --color-magenta: rgb(221, 74, 255);     /* violet / pink */
+  --color-cyan: rgb(100, 220, 255);       /* aqua highlight */
+  --color-red: rgb(200, 50, 50);          /* warm accent */
+  --color-yellow: rgb(180, 180, 50);      /* subtle energy */
+
+  /* ===== Interaction ===== */
+  --color-pointer: 140, 100, 255;
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-gradient-start),
+    rgb(var(--color-magenta)),
+    var(--color-gradient-end)
+  );
+}
+
+/* HERO-ALIGNED ABOUT COLORS */
+
+.grid-hero-default {
+  @apply p-6 rounded-2xl
+  bg-gradient-to-br
+  from-[rgb(0,17,82)]
+  via-[rgb(31,30,57)]
+  to-[rgb(40,43,75)];
+}
+
+.grid-hero-dark {
+  @apply p-6 rounded-2xl
+  bg-gradient-to-br
+  from-[rgb(3,4,18)]
+  via-[rgb(0,17,82)]
+  to-[rgb(31,30,57)];
+}
+
+.grid-hero-special {
+  @apply p-6 rounded-2xl
+  bg-gradient-to-br
+  from-[rgb(92,51,204)]
+  via-[rgb(122,87,219)]
+  to-[rgb(31,30,57)];
+}
+
 .c-space {
   @apply sm:px-10 px-5 lg:px-15;
 }

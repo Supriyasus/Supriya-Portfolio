@@ -2,15 +2,20 @@ import React from 'react'
 import Navbar from './sections/Navbar.jsx'
 import Hero from './sections/Hero.jsx'
 import About from './sections/About.jsx'
+import ScrollSection from './components/ScrollSection.jsx';
 
 const App = () => {
   return (
-    <div className="container mx-auto max-w-7xl">
+    <>
       <Navbar />
       <Hero />
-      <About />
-    </div>
-  )
-}
+      <ScrollSection>
+        <About />
+      </ScrollSection>
+      
+    </>
+  );
+};
 
-export default App
+export default App;
+
