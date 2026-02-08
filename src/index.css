@@ -69,6 +69,20 @@ html {
   scrollbar-gutter: stable;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar but keep scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 :root {
   /* ===== Brand / Base ===== */
   --color-bg-primary: rgb(3, 4, 18);
@@ -104,9 +118,17 @@ html {
 .grid-hero-default {
   @apply p-6 rounded-2xl
   bg-gradient-to-br
+  from-[rgb(18,113,255)]
+  via-[rgb(108,0,162)]
+  to-[rgb(0,17,82)];
+}
+
+.grid-hero-default-reverse {
+  @apply p-6 rounded-2xl
+  bg-gradient-to-br
   from-[rgb(0,17,82)]
-  via-[rgb(31,30,57)]
-  to-[rgb(40,43,75)];
+  via-[rgb(108,0,162)]
+  to-[rgb(18,113,255)];
 }
 
 .grid-hero-dark {

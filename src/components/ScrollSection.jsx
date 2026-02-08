@@ -15,7 +15,7 @@ export default function ScrollSection({ children, className = "" }) {
     restDelta: 0.001,
   });
 
-  const opacity = useTransform(smooth, [0, 1], [0.75, 1]);
+  const opacity = useTransform(smooth, [0, 1], [0.80, 1]);
   const y = useTransform(smooth, [0, 1], [60, 0]);
 
   return (

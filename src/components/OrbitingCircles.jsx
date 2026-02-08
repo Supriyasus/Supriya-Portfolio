@@ -22,9 +22,9 @@ export function OrbitingCircles({
           className="absolute inset-0 pointer-events-none size-full"
         >
           <circle
-            className="stroke-1 stroke-white/10"
+            className="stroke-1 stroke-black/50"
             cx="50%"
-            cy="50%"
+            cy="50%" 
             r={radius}
             fill="none"
           />

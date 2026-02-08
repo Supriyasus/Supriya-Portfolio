@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/Globe";
-import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
@@ -12,14 +11,14 @@ const About = () => {
       className="container mx-auto max-w-7xl px-6 c-space section-spacing"
       id="about"
     >
-      <h2 className="text-heading">About Me</h2>
+      <h2 className="text-heading py-10">About Me</h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-hero-default grid-1">
           <img
             src="assets/coding-pov.png"
-            className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+            className="absolute scale-[1.75] -right-20 -top-4 md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
             <p className="headtext text-white">
@@ -32,7 +31,7 @@ const About = () => {
               solutions that make a real difference.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo/80 to-transparent" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-linear-to-t from-indigo/80 to-transparent" />
         </div>
 
         {/* Grid 2 */}
@@ -41,7 +40,7 @@ const About = () => {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-[rgb(var(--color-cyan))]">
+            <p className="flex items-end text-5xl">
               <strong>CODE IS CRAFT</strong>
             </p>
 
@@ -52,7 +51,7 @@ const About = () => {
             <Card style={{ rotate: "40deg", top: "40%", left: "28%" }} text="DSA" containerRef={grid2Container} />
             <Card style={{ rotate: "30deg", top: "70%", left: "70%" }} image="assets/logos/docker.svg" containerRef={grid2Container} />
             <Card style={{ rotate: "45deg", top: "5%", left: "10%" }} image="assets/logos/github.png" containerRef={grid2Container} />
-            <Card style={{ rotate: "-30deg", top: "70%", left: "25%" }} image="assets/logos/PyTorch.svg" containerRef={grid2Container} />
+            <Card style={{ rotate: "-30deg", top: "70%", left: "25%" }} image="assets/logos/TensorFlow.svg" containerRef={grid2Container} />
 
           </div>
         </div>
@@ -88,10 +87,10 @@ const About = () => {
 </div>
 
         {/* Grid 5 */}
-        <div className="grid-hero-default grid-5">
+        <div className="grid-hero-default-reverse grid-5">
           <div className="z-10 w-[50%]">
             <p className="headtext text-white">Tech Stack</p>
-            <p className="subtext text-white/70">
+            <p className=" subtext text-white/70">
               I leverage a broad tech stack to build applications that balance innovation, scalability, and long‑term stability.
             </p>
           </div>
