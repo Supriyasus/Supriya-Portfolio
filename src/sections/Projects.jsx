@@ -33,9 +33,9 @@ export function Projects() {
         className="container mx-auto max-w-7xl px-6 section-spacing"
         id="projects"
       >
-        <h2 className="text-heading py-10">Projects</h2>
+        <h2 className="text-heading px-8 py-10">Projects</h2>
 
-        <ul className="max-w-6xl mx-auto w-full gap-4">
+        <ul className="max-w-6xl mx-auto w-full gap-6">
           {cards.map((card) => (
             <motion.div
               key={card.title}

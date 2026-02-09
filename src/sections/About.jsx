@@ -70,21 +70,17 @@ const About = () => {
         </div>
 
         {/* Grid 4 */}
-        <div className="grid-hero-special grid-4 bg-custom-gradient">
-  <div className="flex flex-col items-center justify-center gap-4 size-full">
-    <p className="text-center headtext text-white">
-      Collaboration starts with conversation, I’d love to hear your thoughts
-    </p>
-    <a
-      href="https://www.linkedin.com/in/supriyasrivas/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition-transform duration-200 hover:scale-105"
-    >
-      Connect on LinkedIn
-    </a>
-  </div>
-</div>
+        <div className="grid-hero-special grid-4">
+          <div className="flex flex-col justify-end gap-1 size-full px-1 pb-4">
+            <p className="headtext text-white">
+              Education
+            </p>
+
+            <p className="text-white/80 text-sm md:text-base max-w-md">
+              Pursuing B.Tech in Computer & Communication Engineering with a CGPA of 9.1 at Manipal University Jaipur (2022-2026).
+            </p>
+          </div>
+        </div>
 
         {/* Grid 5 */}
         <div className="grid-hero-default-reverse grid-5">
@@ -100,7 +96,9 @@ const About = () => {
         </div>
       </div>
     </section>
+  
   );
 };
+
 
 export default About;

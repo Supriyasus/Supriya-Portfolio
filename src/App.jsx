@@ -5,6 +5,9 @@ import About from './sections/About.jsx'
 import ScrollSection from './components/ScrollSection.jsx';
 import Projects from './sections/Projects.jsx';
 import Experiences from './sections/Experiences.jsx';
+import Achievements from './sections/Achievements.jsx';
+import ContactSection from './sections/Contact.jsx';
+import Footer from './sections/Footer.jsx';
 
 const App = () => {
   return (
@@ -21,11 +24,14 @@ const App = () => {
         <Experiences />
       </ScrollSection>
       <ScrollSection>
-        <div className="max-w-7xl mx-auto py-20">
-          <h2 className="text-3xl font-bold text-center mb-12 text-neutral-500 dark:text-neutral-500">
-            Contact Me
-          </h2>
-        </div>
+        <Achievements />
+      </ScrollSection>
+      <ScrollSection>
+        <ContactSection />
+      </ScrollSection>
+      
+      <ScrollSection>
+        <Footer />
       </ScrollSection>
     </>
   );

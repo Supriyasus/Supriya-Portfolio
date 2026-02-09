@@ -147,6 +147,10 @@ html {
   to-[rgb(31,30,57)];
 }
 
+.container-contact {
+  @apply container mx-auto max-w-7xl px-6;
+  background: linear-gradient(to bottom right,rgb(31,30,57), rgb(108,0,162), rgb(200,50,50));
+}
 .c-space {
   @apply sm:px-10 px-5 lg:px-15;
 }

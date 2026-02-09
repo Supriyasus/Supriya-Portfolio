@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
      
-      <section className="relative w-full min-h-screen overflow-hidden py-24 sm:py-28 lg:py-0">
+      <section className="relative w-full min-h-screen overflow-hidden py-24 sm:py-28 lg:py-0" id="hero">
         <BackgroundGradientAnimation containerClassName="absolute inset-0 -z-10 w-full h-full" />
         <div
             className="
