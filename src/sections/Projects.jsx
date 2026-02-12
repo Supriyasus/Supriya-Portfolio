@@ -41,17 +41,21 @@ export function Projects() {
               key={card.title}
               layoutId={`card-${card.title}-${id}`}
               onClick={() => setActive(card)}
-              className="p-4 flex flex-col md:flex-row justify-between items-center
-                         hover:bg-neutral-50 dark:hover:bg-neutral-800
-                         rounded-xl cursor-pointer"
+              className="p-4 flex flex-col md:flex-row
+                          items-center md:items-center
+                          text-center md:text-left
+                          justify-center md:justify-between
+                          hover:bg-neutral-50 dark:hover:bg-neutral-800
+                          rounded-xl cursor-pointer"
+
             >
-              <div className="flex gap-4 flex-col md:flex-row">
+              <div className="flex gap-4 flex-col md:flex-row items-center md:items-start">
                 <motion.div layoutId={`image-${card.title}-${id}`}>
                   <img
                     src={card.src}
                     alt={card.title}
                     className="h-40 w-60 md:h-20 md:w-30 rounded-lg
-                               object-cover bg-neutral-100 dark:bg-neutral-800"
+                               object-cover mx-auto md:mx-0 bg-neutral-100 dark:bg-neutral-800"
                   />
                 </motion.div>
 
@@ -74,7 +78,7 @@ export function Projects() {
                 layoutId={`button-${card.title}-${id}`}
                 className="px-4 py-2 text-sm rounded-full font-bold
                            bg-neutral-700 hover:bg-[rgb(108,0,162)] hover:text-white
-                           mt-4 md:mt-0"
+                           mt-4 md:mt-0 md:self-auto self-center"
               >
                 Read More
               </motion.button>
@@ -94,11 +98,11 @@ export function Projects() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  className="fixed inset-0 bg-black/30 z-[999]"
+                  className="fixed inset-0 bg-black/30 z-999"
                 />
 
                 {/* MODAL CONTAINER */}
-                <div className="fixed inset-0 grid place-items-center z-[1000] px-4">
+                <div className="fixed inset-0 grid place-items-center z-1000 px-4">
                   {/* CLOSE BUTTON */}
                   <motion.button
                     onClick={() => setActive(null)}
@@ -112,7 +116,7 @@ export function Projects() {
                   <motion.div
                     ref={ref}
                     layoutId={`card-${active.title}-${id}`}
-                    className="w-full max-w-130 h-[80vh]
+                    className="w-full max-w-180 h-[80vh]
                                flex flex-col bg-white dark:bg-neutral-900
                                rounded-3xl overflow-hidden"
                   >

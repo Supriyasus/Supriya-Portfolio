@@ -1,107 +1,98 @@
 const cards = [
   {
-    description: "Lana Del Rey",
-    title: "Summertime Sadness",
-    src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
-    ctaText: "Play",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "FastAPI • React • PostgreSQL • JWT • Mapbox",
+    title: "TableScout: AI-powered personalized discovery & booking platform",
+    src: "./assets/projects/tablescout.jpeg",
+    ctaText: "Read More",
+    ctaLink: "https://github.com/Supriyasus/TableScout",
+    showCTA: true,
     content: () => {
       return (
-        <p>Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-                    her melancholic and cinematic music style. Born Elizabeth Woolridge
-                    Grant in New York City, she has captivated audiences worldwide with
-                    her haunting voice and introspective lyrics. <br /> <br />Her songs
-                    often explore themes of tragic romance, glamour, and melancholia,
-                    drawing inspiration from both contemporary and vintage pop culture.
-                    With a career that has seen numerous critically acclaimed albums, Lana
-                    Del Rey has established herself as a unique and influential figure in
-                    the music industry, earning a dedicated fan base and numerous
-                    accolades.
-                  </p>
+        <p>
+          A modular AI-agent powered platform for personalized location-based discovery and booking. <br /><br />
+          TableScout is a developer-friendly system that blends real-time signals like traffic, popularity, and user preferences
+          to generate explainable recommendations and seamless booking flows. It uses an agent-based backend architecture where
+          specialized agents handle intent extraction, planning, scoring, explanations, and contextual signals. MCP servers wrap
+          external APIs such as maps and booking services, keeping integrations isolated and testable. The FastAPI backend and
+          React frontend make it scalable, extensible, and ideal for building intelligent location-based experiences.
+        </p>
       );
     },
   },
   {
-    description: "Babbu Maan",
-    title: "Mitran Di Chhatri",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
-    ctaText: "Play",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "FastAPI • React • Cohere • Gemini • OpenAlex • Docker",
+    title: "Vesper: AI toolkit for research, writing, and coding",
+    src: "./assets/projects/Vesper.png",
+    ctaText: "Read More",
+    ctaLink: "https://github.com/Supriyasus/Vesper",
+    showCTA: true,
     content: () => {
       return (
-        <p>Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-                    voice and profound lyrics that resonate deeply with his audience. Born
-                    in the village of Khant Maanpur in Punjab, India, he has become a
-                    cultural icon in the Punjabi music industry. <br /> <br />His songs
-                    often reflect the struggles and triumphs of everyday life, capturing
-                    the essence of Punjabi culture and traditions. With a career spanning
-                    over two decades, Babu Maan has released numerous hit albums and
-                    singles that have garnered him a massive fan following both in India
-                    and abroad.
-                  </p>
-      );
-    },
-  },
-
-  {
-    description: "Metallica",
-    title: "For Whom The Bell Tolls",
-    src: "https://assets.aceternity.com/demos/metallica.jpeg",
-    ctaText: "Play",
-    ctaLink: "https://ui.aceternity.com/templates",
-    content: () => {
-      return (
-        <p>Metallica, an iconic American heavy metal band, is renowned for their
-                    powerful sound and intense performances that resonate deeply with
-                    their audience. Formed in Los Angeles, California, they have become a
-                    cultural icon in the heavy metal music industry. <br /> <br />Their
-                    songs often reflect themes of aggression, social issues, and personal
-                    struggles, capturing the essence of the heavy metal genre. With a
-                    career spanning over four decades, Metallica has released numerous hit
-                    albums and singles that have garnered them a massive fan following
-                    both in the United States and abroad.
-                  </p>
+        <p>
+          An AI research and writing assistant for generating, refining, and interacting with content and code. <br /><br />
+          Vesper helps researchers, students, and creators summarize PDFs, debug code, generate text, and perform literature
+          reviews through a clean React interface powered by FastAPI. It integrates Cohere and Google Generative AI for text
+          generation, OpenAlex for semantic academic search, and PyMuPDF for document parsing. The platform focuses on usability,
+          intelligent automation, and productivity enhancement for knowledge-intensive workflows.
+        </p>
       );
     },
   },
   {
-    description: "Led Zeppelin",
-    title: "Stairway To Heaven",
-    src: "https://assets.aceternity.com/demos/led-zeppelin.jpeg",
-    ctaText: "Play",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "BERT • BiLSTM • Wav2Vec2 • ResNet • Fusion AI",
+    title: "Multimodal Multilingual Sentiment Model: Emotion AI across text, speech, and images",
+    src: "./assets/projects/multimodal.png",
+    ctaText: "Read More",
+    ctaLink: "https://github.com/Supriyasus/Multimodal-Sentiment-Model",
+    showCTA: false,
     content: () => {
       return (
-        <p>Led Zeppelin, a legendary British rock band, is renowned for their
-                    innovative sound and profound impact on the music industry. Formed in
-                    London in 1968, they have become a cultural icon in the rock music
-                    world. <br /> <br />Their songs often reflect a blend of blues, hard
-                    rock, and folk music, capturing the essence of the 1970s rock era.
-                    With a career spanning over a decade, Led Zeppelin has released
-                    numerous hit albums and singles that have garnered them a massive fan
-                    following both in the United Kingdom and abroad.
-                  </p>
+        <p>
+          A multimodal emotion recognition system combining text, audio, and image intelligence. <br /><br />
+          This research project evaluates performance across benchmark datasets including AffectNet (image), TESS (audio),
+          and a multilingual text corpus. The system achieved strong individual accuracies (Text 96.34%, Audio 100%, Image 77.67%)
+          with an overall fused accuracy of 92.21%. It is designed to remain robust even with missing or distorted modalities and
+          generalizes across languages. The framework demonstrates scalable, culturally adaptive emotion recognition suitable for
+          applications in healthcare, education, assistive tech, and human-computer interaction.
+        </p>
       );
     },
   },
   {
-    description: "Mustafa Zahid",
-    title: "Toh Phir Aao",
-    src: "https://assets.aceternity.com/demos/toh-phir-aao.jpeg",
-    ctaText: "Play",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "Flask • Gemini API • Tailwind • PyPDF2",
+    title: "Jobique: Intelligent job application assistant for personalized cold emails and cover letters",
+    src: "./assets/projects/jobique.png",
+    ctaText: "Read More",
+    ctaLink: "https://github.com/Supriyasus/Jobique",
+    showCTA: true,
     content: () => {
       return (
-        <p>"Aawarapan", a Bollywood movie starring Emraan Hashmi, is
-                    renowned for its intense storyline and powerful performances. Directed
-                    by Mohit Suri, the film has become a significant work in the Indian
-                    film industry. <br /> <br />The movie explores themes of love,
-                    redemption, and sacrifice, capturing the essence of human emotions and
-                    relationships. With a gripping narrative and memorable music,
-                    "Aawarapan" has garnered a massive fan following both in
-                    India and abroad, solidifying Emraan Hashmi's status as a
-                    versatile actor.
-                  </p>
+        <p>
+          An AI tool that generates personalized cold emails and cover letters for job applications. <br /><br />
+          Jobique allows users to upload a job posting link and their resume PDF to automatically generate tailored
+          application emails and cover letters. Built with a Flask backend and Tailwind frontend, it uses the Google Gemini API
+          for intelligent content generation and PyPDF2 for resume parsing. Deployed on Render, the application focuses on
+          usability, personalization, and real-world job search automation.
+        </p>
+      );
+    },
+  },
+  {
+    description: "OpenCV • Flask • cvzone • pyttsx3",
+    title: "HandyAI: Gesture-controlled automation system",
+    src: "./assets/projects/HandyAi.png",
+    ctaText: "Read More",
+    ctaLink: "https://github.com/Supriyasus/HandyAI",
+    showCTA: true,
+    content: () => {
+      return (
+        <p>
+          A gesture-controlled automation system that performs real-world tasks using computer vision. <br /><br />
+          HandyAI detects hand gestures through a webcam and triggers predefined actions such as opening websites,
+          fetching weather, retrieving news, or telling jokes. It also includes text-to-speech feedback to announce actions,
+          making interaction intuitive and accessible. Built using Flask, OpenCV, cvzone, and pyttsx3, the system demonstrates
+          real-time vision processing combined with automation logic inside a responsive web interface.
+        </p>
       );
     },
   },
