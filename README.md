@@ -4,6 +4,6 @@ A clean, responsive developer portfolio built with React, Vite, and Tailwind CSS
 
 **Tech stack:** React, Vite, Tailwind CSS, JavaScript
 
-**Live Demo:** Add your deployment URL here (Vercel / Netlify / GitHub Pages)
+**Live Demo:** [supriyasrivastava](https://supriyasrivastava.vercel.app/)
 
 © 2026 Supriya Srivastava. All rights reserved.
