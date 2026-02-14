@@ -6,7 +6,7 @@ const data = [
   },
   {
     category: "Hackathon",
-    title: "Top 100 Finalist — Amazon HackOn Season 5 (13,000+ participants)",
+    title: "Top 100 Semi Finalist — Amazon HackOn Season 5 (13,000+ participants)",
     src: "/assets/achievements/hackon1.jpeg",
   },
   {
