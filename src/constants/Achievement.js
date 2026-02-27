@@ -27,7 +27,7 @@ const data = [
   },
   {
     category: "Research",
-    title: "Research Paper Presented at IEEE ICETCE — Multilingual Multimodal Emotion Recognition",
+    title: "Research Paper Published in IEEE ICETCE Proceedings — Multilingual Multimodal Emotion Recognition",
     src: "/assets/achievements/research.jpg",
   },
 ];
