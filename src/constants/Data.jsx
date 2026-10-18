@@ -37,8 +37,6 @@ const Data = [
             </div>
           </div>
        </div>
-
-        </div>
       ),
     },
     {
