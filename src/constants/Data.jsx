@@ -4,24 +4,37 @@ const Data = [
       content: (
         <div>
           <h1 className="text-4xl font-bold text-white dark:text-white mb-4">Deloitte India</h1>
-          <h2 className="text-2xl font-semibold text-neutral-300 dark:text-white mb-2">SAP Analyst Intern</h2>          
+          <h2 className="text-2xl font-semibold text-neutral-300 dark:text-white mb-2">Data Factory Trainee</h2>          
           <h2 className="text-xl font-semibold text-neutral-300 dark:text-neutral-300 mb-2">Gurugram, Haryana (Jan - Current)</h2>
 
           <p
             className="mb-8 text-xs justify font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Currently undergoing Deloitte-led technical training on SAP HCM systems and enterprise HR workflows, gaining exposure to data 
-            structures supporting employee lifecycle and HR operations. Working with ServiceNow-driven HR
-            processes to understand workflow orchestration, backend data validation, and structured documentation within 
-            Deloitte’s delivery framework. Parallel training in Power BI and Python is building a foundation in data visualization, reporting, and 
-            analytical problem-solving aligned with Deloitte’s collaborative, process-driven engineering culture.
+              Contributed to NHPC’s flagship SAP S/4HANA implementation as part of the specialized data migration team, 
+              focusing on database operations, historical data transformation, and migration validation. Utilized Python to automate data preprocessing,
+              transformation, cleansing, and validation of 100K+ legacy records across multiple functional domains, improving data consistency and 
+              migration readiness. Supported ETL workflows by preparing legacy datasets, applying transformation rules, identifying data inconsistencies, 
+              and reconciling source records against migration outputs to maintain data integrity. During the critical cutover period, collaborated with 
+              client stakeholders, database and technical teams, and cross-functional implementation leads to coordinate migration activities, track 
+              execution progress, document validation results, and record data discrepancies for resolution. Maintained structured documentation of 
+              migration status, validation outcomes, and pending issues while facilitating stakeholder communication and follow-ups. Additionally, provided 
+              go-live and hypercare support by tracking post-migration issues, coordinating corrective actions, and assisting with data verification to 
+              support a stable transition to the new SAP S/4HANA environment while minimizing business disruption.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             <div className="relative w-full overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] aspect-[16/9]">
               <img
                 src="../assets/experience/Deloitte.webp"
                 alt="Deloitte template"
                 className="h-full w-full object-cover"
               />
+            </div>
+            <div className="relative w-full overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] aspect-[16/9]">
+              <img
+                src="../assets/experience/Deloitte2.jpeg"
+                alt="Deloitte template"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
        </div>
 
